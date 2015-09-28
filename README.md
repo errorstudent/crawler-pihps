@@ -10,8 +10,8 @@ Tools for scraping a PIHPS (Portal Informasi Harga Pangan Strategis).
 * MongoDB 3.0
 
 ## Install Dependencies
-`$pip install -r requirements.txt`
+```pip install -r requirements.txt```
 
 ## How to Run
 * Scraping http://hargapangan.id 
-   `$scrapy crawl hargapanganid`
+```scrapy crawl hargapanganid```
