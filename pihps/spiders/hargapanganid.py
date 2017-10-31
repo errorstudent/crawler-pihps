@@ -10,7 +10,7 @@ from datetime import datetime
 class HargapanganidSpider(Spider):
     name = 'hargapanganid'
     allowed_domains = ['hargapangan.id']
-    start_urls = ['http://hargapangan.id/statistik-provinsi/harian']
+    start_urls = ['https://hargapangan.id/statistik-provinsi/harian']
 
     #rules = (
     #    Rule(LinkExtractor(allow=r'questions\?page=[0-9]&sort=newest'), 
@@ -39,7 +39,6 @@ class HargapanganidSpider(Spider):
                     item['market']  = market.strip(': \t\n\r')
                     item['date']    = datetime.strptime(date, '%d/%m/%Y')
                     item['commodity'] = commodity[0].strip()
-                    #item['price'] = datetime.strptime(price[0].strip(), '%d/%m/%Y')
                     item['price']   = price[0].strip()
 
                     yield item
