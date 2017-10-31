@@ -87,7 +87,7 @@ ITEM_PIPELINES = {
 MYSQL_HOST = 'localhost'
 MYSQL_DBNAME = 'opendata'
 MYSQL_USER = 'root'
-MYSQL_PASSWD = ''
+MYSQL_PASSWD = 'opendata'
 
 
 # Mongo DB
