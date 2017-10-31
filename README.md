@@ -3,7 +3,6 @@ Tools for scraping a PIHPS (Portal Informasi Harga Pangan Strategis).
 
 ##Feature:
 * Scraping http://hargapangan.id
-* Scraping https://hargapangan.id
 * (tbd)
 
 ## Requirements
